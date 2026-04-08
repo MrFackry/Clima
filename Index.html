@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clima</title>
+  <link rel="stylesheet" href="./src/CSS/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="noise"></div>
+
+  <main>
+    <header>
+      <div class="logo">☁</div>
+      <h1>Clima</h1>
+      <p class="subtitle">Busca el clima de cualquier ciudad</p>
+    </header>
+
+    <div class="search-container">
+      <input type="text" id="ciudad" placeholder="Ciudad..." autocomplete="off" />
+      <button id="buscar">Buscar</button>
+    </div>
+
+    <div id="resultado"></div>
+  </main>
+
+  <script src="./src/JS/main.js"></script>
+</body>
+</html>
