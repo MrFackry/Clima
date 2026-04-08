@@ -61,7 +61,7 @@ No requiere instalación de dependencias ni backend.
 
 ### 1. Clonar el repositorio
 
-git clone https://github.com/tu-usuario/weather-app.git cd weather-app
+git clone https://github.com/MrFackry/Clima.git cd weather-app
 
 ### 2. Ejecutar la aplicación
 
@@ -123,7 +123,6 @@ Ejecutar: 1. Abrir app\
 -   Pronóstico extendido\
 -   Geolocalización\
 -   Mejor UI/UX\
--   Cacheo\
 -   Tests automatizados\
 -   Modo oscuro
 
